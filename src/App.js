@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <p>TodoList</p>
       </header>
-      <NewTodo onDelete></NewTodo>
+      <NewTodo></NewTodo>
     </div>
   );
 }
