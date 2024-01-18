@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    height: 40px;
+}
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-right: 10px;
+}
+
+ul {
+    width: 50%;
+    margin: 0px auto;
+}
+
+li {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+li > button {
+    border-radius: 10px;
+    background-color: #e30000;
+    color: white;
+    /* font-weight: bold; */
+}
